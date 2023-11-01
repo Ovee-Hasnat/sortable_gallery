@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+
+  .btn_basic {
+    @apply py-1.5 px-3 rounded-lg shadow-md block;
+  }
+
+  .easy {
+    @apply transition-all ease-in-out duration-300;
+  }
+}
